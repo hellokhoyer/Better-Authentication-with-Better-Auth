@@ -1,0 +1,14 @@
+{
+	"name": "authentication-workshop",
+	"scripts": {
+		"dev": "bun run --hot src/index.ts",
+		"db:up": "docker compose up -d",
+		"db:down": "docker compose down"
+	},
+	"dependencies": {
+		"hono": "^4.9.9"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	}
+}
