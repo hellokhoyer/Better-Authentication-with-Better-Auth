@@ -1,8 +1,8 @@
-import { defaineConfig } from "drizzle-kit";
-export default defaineConfig({
+import { defineConfig } from "drizzle-kit";
+export default defineConfig({
 	schema: "./src/db/schema.ts",
 	out: "./src/db/migrations",
-	dialect: "pg",
+	dialect: "postgresql",
 	dbCredentials: {
 		url: process.env.DATABASE_URL,
 	},
