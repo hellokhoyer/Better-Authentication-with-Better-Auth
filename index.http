@@ -1,1 +1,7 @@
-GET http://localhost:3000/
+POST http://localhost:3000/api/todos
+Content-Type: application/json
+
+{
+  "title": "New Todo 2",
+  "description": "This is a new todo 2"
+}
